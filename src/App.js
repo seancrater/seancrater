@@ -14,12 +14,6 @@ const SubHeader = styled.section`
   max-width: 36rem;
 `;
 
-const IconBank = styled.section`
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-`;
-
 function App() {
   return (
     <Fragment>
