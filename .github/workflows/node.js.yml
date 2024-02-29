@@ -29,6 +29,9 @@ jobs:
           done
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          name: github-pages
+          path: './build'
 
   # Deploy job
   deploy:
